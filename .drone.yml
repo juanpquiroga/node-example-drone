@@ -1,6 +1,6 @@
-debug: true
-pipeline:
-  build:
+kind: pipeline
+steps:
+  - name: test
     image: node
     commands:
       - npm install --development
