@@ -1,5 +1,5 @@
 kind: pipeline
-default: test
+name: default
 
 steps:
   - name: test
